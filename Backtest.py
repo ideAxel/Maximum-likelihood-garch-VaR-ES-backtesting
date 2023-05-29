@@ -1,3 +1,7 @@
+import numpy as np
+from scipy.stats import norm
+from garch import GarchModel
+
 class Backtest:
     def __init__(self, model, returns):
         self.model = model
